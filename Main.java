@@ -4,6 +4,7 @@ public class Main {
         int[] sales = {15, 25, 30, 10};
         SalesManager sm = new SalesManager(sales);
         System.out.printf("Лучшая продажа: " + sm.max());
+        System.out.printf("Средняя продажа: " + sm.mean());
 
     }
 }
